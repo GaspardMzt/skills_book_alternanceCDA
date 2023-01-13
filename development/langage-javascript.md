@@ -6,22 +6,25 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript
-(e) => mc2;
+// écrire une fonction qui retourne un tableau filtré ne contenant que les nombres présents dans le tableau initial
+function filter_list(l) {
+  return l.filter((element) => typeof element === "number");
+}
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[lien github]()
 
 Description :
 
@@ -60,4 +63,3 @@ Résolution :
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
 - J'ai fait une [présentation](...) ❌ / ✔️
-
